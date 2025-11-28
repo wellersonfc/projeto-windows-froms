@@ -1,3 +1,5 @@
+using admtarefas.View;
+
 namespace admtarefas
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace admtarefas
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Formarefas());
+            Application.Run(new FormFuncionarios());
         }
     }
 }

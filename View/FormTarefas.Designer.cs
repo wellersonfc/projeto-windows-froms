@@ -1,6 +1,6 @@
 ﻿namespace admtarefas
 {
-    partial class Formarefas
+    partial class FormTarefas
     {
         /// <summary>
         ///  Required designer variable.

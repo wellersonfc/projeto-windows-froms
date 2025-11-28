@@ -1,16 +1,16 @@
 using admtarefas.Controller;
 using System.Data;
-
+using admtarefas.View;
 namespace admtarefas
 {
-    public partial class Formarefas : Form
+    public partial class FormTarefas : FormMenu
     {
         // Tabela em memória para guardar as tarefas
         DataTable tabelaTarefas = new DataTable();
         //Instanciando controller
         TarefaController tarefaController = new TarefaController();
 
-        public Formarefas()
+        public FormTarefas()
         {
             InitializeComponent();
             ConfigurarGrid();
